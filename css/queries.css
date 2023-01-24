@@ -1,0 +1,287 @@
+/* Less then 1344px */
+
+@media (max-width: 84em) {
+  html {
+    font-size: 56%;
+  }
+}
+
+/* Less then 1088px */
+
+@media (max-width: 68em) {
+  html {
+    font-size: 48%;
+  }
+
+  header .link:link,
+  header .link:visited {
+    font-size: 2rem;
+  }
+}
+
+/* Less then 976px */
+
+@media (max-width: 61em) {
+  .grid {
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+
+  .menu-list {
+    gap: 2.4rem;
+  }
+
+  .heading-primary {
+    font-size: 10.8rem;
+    line-height: 9rem;
+  }
+
+  .hero-text {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+  }
+
+  .subheading {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.8rem;
+  }
+
+  .category-text-box {
+    width: 90%;
+  }
+
+  .category-description {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 3.6rem;
+  }
+
+  .hashtag {
+    font-size: 3.6rem;
+    line-height: 0.5;
+    margin-bottom: 4.2rem;
+  }
+
+  .section-about {
+    margin-bottom: 18rem;
+  }
+
+  .section-about .btn-div {
+    margin-bottom: 10rem;
+  }
+
+  .section-about .subheading {
+    margin-top: 8rem;
+  }
+
+  .about-img {
+    margin-top: 8rem;
+    height: 100%;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+  }
+
+  section {
+    margin-bottom: 9.6rem !important;
+  }
+
+  .footer {
+    padding-top: 9.6rem;
+  }
+
+  .footer-nav {
+    margin-bottom: 6.2rem;
+  }
+}
+
+/* Less then 800px */
+
+@media (max-width: 50em) {
+  .menu-list {
+    gap: 1.8rem;
+  }
+
+  .category-text-box {
+    width: 95%;
+    padding: 2.4rem 0 3.6rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+  }
+
+  .footer form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-star;
+    margin-bottom: 3.2rem;
+  }
+
+  .section-about .category-text-box {
+    padding: 0;
+  }
+
+  .about-img {
+    height: 90%;
+  }
+}
+
+/* Less then 704px */
+
+@media (max-width: 44em) {
+  .category-container {
+    row-gap: 1rem;
+  }
+  .heading-primary {
+    font-size: 6.2rem;
+    line-height: 0.8;
+    padding-top: 2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .heading-secondary {
+    margin-bottom: 2.4rem;
+  }
+
+  .category-container .heading-secondary {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-logo-box {
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    width: 90%;
+    font-size: 3.2rem;
+    line-height: 1;
+    margin-bottom: 2.4rem;
+  }
+
+  .hero-img-box {
+    height: 50vh;
+  }
+
+  .intro-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-introduction .btn-div {
+    margin-top: 3.6rem;
+  }
+
+  .testimonial-text-box {
+    padding: 2.4rem 0;
+  }
+
+  .section-introduction .heading-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3.6rem;
+  }
+
+  .grid--4--cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .picture {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .intro-testimonial {
+    grid-row: 3;
+    grid-column: 1 / -1;
+  }
+
+  .category-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .category-text-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .category-description {
+    display: flex;
+    justify-content: center;
+  }
+
+  .category-text-box .subheading {
+    display: none;
+  }
+
+  .img-right {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .text-left {
+    justify-self: flex-start;
+  }
+
+  .category-container .btn-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  section {
+    margin-bottom: 7.2rem !important;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    height: 100% !important;
+  }
+
+  .footer-menu {
+    width: 100%;
+  }
+
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-about .btn-div {
+    margin-bottom: 4.2rem;
+  }
+
+  .section-about .about-img {
+    display: none;
+  }
+
+  .section-about .heading-secondary {
+    margin-top: 2.4rem;
+  }
+
+  .footer input {
+    width: 30rem;
+  }
+}
